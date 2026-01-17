@@ -1,0 +1,15 @@
+<header class="bg-white">
+  <div class="pv3 ph3 ph4-ns flex-l items-center justify-between center mw9">
+    <a href="{{ .Site.Home.RelPermalink }}" class="dib no-underline">
+      {{ with .Site.Params.site_logo }}
+        <img src="{{ . | relURL }}" class="w-100 mw5-ns" style="max-height: 150px; width: auto;" alt="{{ $.Site.Title }}" />
+      {{ else }}
+        <h1 class="f2 fw2 black-90 mb0">{{ .Site.Title }}</h1>
+      {{ end }}
+    </a>
+    <div class="flex items-center mt3 mt0-l ananke-socials">
+      {{ partials.IncludeCached "social/follow.html" . }}
+    </div>
+  </div>
+  {{ partials.Include "site-navigation.html" . }}
+</header>

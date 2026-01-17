@@ -1,0 +1,44 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'AXLA - AMIGOS POR LOS ANIMALES'
+theme = 'ananke'
+
+publishDir = 'public'
+
+[params]
+  site_logo = "images/logoAxla400.png"
+  background_color_class = "bg-white"
+  custom_css = ["css/custom.css"]
+  body_classes = "avenir bg-white"
+
+[params.ananke.social]
+  networks = ["facebook", "twitter", "instagram"]
+  facebook = { username = "axla" }
+  twitter = { username = "axla" }
+  instagram = { username = "axla" }
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Adopta"
+    url = "/adopta/"
+    weight = 20
+  [[menu.main]]
+    name = "Colabora"
+    url = "/colabora/"
+    weight = 30
+  [[menu.main]]
+    name = "Adoptados y Felices"
+    url = "/adoptados-y-felices/"
+    weight = 40
+  [[menu.main]]
+    name = "Socios"
+    url = "/socios/"
+    weight = 50
+  [[menu.main]]
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 60

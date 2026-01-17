@@ -1,0 +1,31 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Social icons styling to match the blue squares in the image */
+.ananke-socials .ananke-social-link {
+    background-color: #6d84b4; /* A bluish color */
+    color: white !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 0 !important;
+}
+
+.ananke-socials .ananke-social-link.twitter {
+    background-color: #55acee;
+}
+
+.ananke-socials .ananke-social-link.instagram {
+    background-color: #3f729b;
+}
+
+.ananke-socials .ananke-social-link .icon svg {
+    fill: white;
+    width: 18px;
+    height: 18px;
+}

@@ -5,6 +5,9 @@ theme = 'ananke'
 
 publishDir = 'public'
 
+canonifyURLs = true
+relativeURLs = true
+
 [params]
   site_logo = "images/logoAxla400.png"
   background_color_class = "bg-white"

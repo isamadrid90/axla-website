@@ -29,3 +29,8 @@
     width: 18px;
     height: 18px;
 }
+
+/* Hamburger menu toggle */
+#menu-toggle:checked ~ #menu {
+    display: block;
+}
